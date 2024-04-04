@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MGS</title>
+</head>
+<body>
+
+    <link rel="stylesheet" href="style.css">
+
+
+    <main>
+        <header>
+            <a href="https://www.konami.com/en/"><img class="konami-logo" src="images/logo_konami.png"></a>
+            <nav class="menu">
+                <div class="container">
+                    <ul class="topmenu">
+                       <li><a class="a" href="">Солид Снейк</a>
+                            <ul class="submenu">
+                                <li><a href="images/solid-snake-smoke.jpg">Metal Gear Solid</a></li>
+                                <li><a href="images/solid-snake-bandana.jpg">Metal Gear Solid 2: Sons of Liberty</a></li>
+                                <li><a href="images/snakes-kiss.jpg">Metal Gear Solid 4: Guns of the Patriots</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="" class="a">Биг Босс</a>
+                            <ul class="submenu">
+                            <li><a href="images/Naked-snake-smile.jpg">Metal Gear Solid 3: Snake Eater</a></li>
+                            <li><a href="images/snake-psp.jpg">Metal Gear Solid: Portable Ops</a></li>
+                            <li><a href="images/venom-snake-banana.jpeg">Metal Gear Solid: Peace Walker</a></li>
+                        </ul>
+                        </li>
+                        <li><a href="" class="a">Хидэо Кодзима</a>
+                            <ul class="submenu">
+                            <li><a href="">Бог</a></li>
+                            <li><a href="">Гений</a></li>
+                            <li><a href="">Легенда</a></li>
+                        </ul>
+                    </li>
+                    </ul>
+                </div>
+            </nav>
+            <button class="trigger-button">Поддержка</button>
+            <div class="window">
+                <div class="window-content">
+                    <button class="close-button">×</button>
+                    <form>
+                        <div class="input5">
+                            <p class="text6">Дайте нам свои данные,
+                            <br>чтобы мы могли связаться с вами</p>
+                            <input class="name2" placeholder="ФИО" type="text" name="Name" id="name" required>
+                            <input class="email2" placeholder="E-mail" type="email" name="E-mail" id="email" required>
+                            <button class="button4" type="submit">ОТПРАВИТЬ</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </header>
+        <div class="section-1">
+            <img class="logo-1" src="images/tpp_logo.png">
+            <a href="https://youtu.be/P8RCD2KAbX4?si=aoFLPReFJ89boI-e"><img class="video-debriefing" src="images/debriefing-logo.jpg"></a>
+            <p class="text1">В знак признательности всем фанатам, которые поддержали серию Metal Gear. У меня есть отчет о 
+            <br> завершении (разбор полетов), чтобы сообщить всем вам. Я искренне надеюсь, что вам это понравится. 
+            <br><span class="text11">Хидэо Кодзима</span></p>
+            <a href="https://www.youtube.com/watch?v=A9JV0EvCkMI"><button class="button11">ТРЕЙЛЕР ИГРЫ</button></a>
+            <button class="button12" onclick="scrollDown1()">КУПИТЬ</button>
+        </div>
+    </main>
+
+    
+    <div class="box-shadow-1"></div>
+
+
+    <section class="section-2">
+        <p class="text2">Восстаньте из комы и возродите легенду о Большом Боссе.
+        <br>Постройте своё ЧВК и станьте настоящим лидером. Отомстите виновникам
+        <br>своего падения, участвуйте в тайных операциях в Афганистане
+        <br>времён советско-афганской войны и на анголо-заирской границе
+        <br>времён гражданской войны в Анголе.
+        <br><br><span class="text21">Пусть люди знают, что легенда вернуась.</span></p>
+    </section>
+
+
+    <div class="box-shadow-1"></div>
+
+
+    <section class="section-3">
+        <img class="logo-2" src="images/gz_logo.png">
+        <p class="text3">Посмотрите на события до MGS: The Phantom Pain,
+        <br>узнать завяску событий и причину пропажи на 9 лет.</p>
+        <a href="https://www.youtube.com/watch?v=haMLxLbN2WI"><button class="button21">ТРЕЙЛЕР ИГРЫ</button></a>
+            <button class="button22" onclick="scrollDown2()">КУПИТЬ</button>
+    </section>
+
+
+    <div class="box-shadow-1"></div>
+
+
+    <section class="section-4">
+        <div class="left-block">
+            <div class="editions">
+                <p id="text1" class="text41">MGSV: Definitive Experience</p>
+                <p id="text2" class="text42">MGSV: The Phantom Pain</p>
+                <p id="text3" class="text43">MGSV: Ground Zeroes</p>
+            </div>
+            <div class="selectors">
+                <select class="country-select" name="countries" id="country-select">
+                    <option value="select-countries">Выберите страну</option>
+                    <option value="russia">Россия</option>
+                    <option value="ass">Жопа мира</option>
+                </select>
+                <select class="platform-select" name="platform" id="platform-select">
+                    <option value="select-platform">Выберите платформу</option>
+                    <option value="russia">ПеКарня</option>
+                    <option value="xbox-360">XBOX 360</option>
+                    <option value="xbox-one">XBOX ONE</option>
+                    <option value="ps-3">Playstation 3</option>
+                    <option value="ps-3">Playstation 3</option>
+                    <option value="ps-4">Playstation 4</option>
+                </select>
+                <div class="input">
+                    <form>
+                        <div class="input1">
+                            <input class="name" placeholder="ФИО" type="text" name="Name" id="name" required>
+                            <input class="email" placeholder="E-mail" type="email" name="E-mail" id="email" required>
+                        </div>
+                        <div class="input2">
+                            <input class="checkbox" type="checkbox" checked><p class="checkbox-text">Я согласен на обработку персональных данных.</p>
+                        </div>
+                        <div class="input3">
+                            <button class="button3" type="submit">КУПИТЬ</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="right-block">
+            <img id="image1" class="images" src="images/MGSV-DE.jpg">
+            <img id="image2" class="images" src="images/MGSV-TTP.jpg">
+            <img id="image3" class="images" src="images/MGSV-GZ.jpg">
+        </div>
+    </section>
+    <footer>
+        <img class="logo-fox" src="images/logo_fox.png">
+        <a  href="https://www.konami.com/en/"><img class="logo_konami1" src="images/logo_konami.png"></a>
+        <p class="text5">©2015 Konami Digital Entertainment</p>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
